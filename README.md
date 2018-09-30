@@ -1,4 +1,4 @@
-# istock search and download
+# istockphoto search and download
 
 This extensions can be loaded in unpacked mode by following the following steps:
 
