@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "iStockPhoto SD",
+  "version": "0.1.0",
+  "description": "Search and Download iStockPhoto images",
+  
+  
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["contents.js"],
+    "matches": ["https://www.istockphoto.com/*"]
+  }],
+
+  "icons": {
+      "16": "images/16.png",
+      "32": "images/32.png",
+      "48": "images/48.png",
+      "128": "images/128.png"
+    }
+  
+}

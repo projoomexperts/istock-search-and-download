@@ -1,0 +1,36 @@
+a.mydownloadbtn {
+    position: absolute;
+    z-index: 10000;
+    right: 20px;
+    bottom: 20px;
+    background: #fff;
+    padding: 2px 12px;
+    border-radius: 3px;
+	opacity : 0;
+}
+
+.mysearchbtn{
+	    position: absolute;
+    z-index: 10000;
+    left: 20px;
+    bottom: 20px;
+    background: #fff;
+    padding: 2px 12px;
+    border-radius: 3px;
+	opacity: 0;
+}
+
+.gsearchbtn{
+	    position: absolute;
+    z-index: 10000;
+    left: 20px;
+    top: 20px;
+    background: #fff;
+    padding: 2px 12px;
+    border-radius: 3px;
+	opacity: 0;
+}
+
+.mosaic-asset:hover .mysearchbtn , .mosaic-asset:hover .mydownloadbtn, .mosaic-asset:hover .gsearchbtn{
+	opacity : 1;
+}
